@@ -104,7 +104,6 @@ class UserController extends Controller
     {
         try {
 
-            // $data = $request->all();
 
             $user = User::find(Auth::user()->id);
 
